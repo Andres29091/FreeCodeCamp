@@ -1,0 +1,160 @@
+body {
+    padding: 1rem;
+    color: black;
+    font-family: 'Poppins', sans-serif;
+    background-image: url('/Formulario/assets/encuesta.jpg');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+h1,
+p {
+    margin-top: 0;
+    text-align: center;
+    color: black;
+}
+
+#description {
+    margin-bottom: 4rem;
+}
+
+#description,
+#descriptionForm {
+    font-weight: 600;
+    font-size: 1.4rem;
+}
+
+#descriptionForm {
+    color: black;
+}
+
+.container {
+    border: 1.4rem solid #737375;
+    padding: 4rem 2.4rem 2.4rem 2.4rem;
+    margin: auto;
+    background-color: white;
+    border-radius: 1rem;
+}
+
+.square {
+    position: absolute;
+    top: 16%;
+    right: 45%;
+    height: 80px;
+    width: 200px;
+    background-color: #C5C5C5;
+    border-bottom-left-radius: 20%;
+    border-bottom-right-radius: 20%;
+}
+
+.circle {
+    position: absolute;
+    top: 12%;
+    right: 49%;
+    width: 3rem;
+    height: 3rem;
+    border-radius: 50%;
+    box-sizing: border-box;
+    border: 0.8rem solid #C5C5C5;
+    margin: 0 0 0 0;
+}
+
+form {
+    border: 0.2rem solid black;
+    border-radius: 0.6rem;
+    padding: 0.8rem;
+}
+
+@media (min-width: 425px) {
+    .container {
+        width: 70%;
+    }
+}
+
+@media (max-width: 1280px) {
+    .container {
+        width: 50%;
+    }
+
+    .square {
+        top: 26%;
+        right: 42%;
+    }
+
+    .circle {
+        top: 20%;
+        right: 48%;
+    }
+}
+
+@media (min-width: 1440px) {
+    .container {
+        width: 30%;
+    }
+}
+
+label {
+    display: flex;
+    align-items: center;
+    padding-bottom: 0.4rem;
+    font-size: 1.2rem;
+}
+
+#fieldRequired {
+    color: red;
+}
+
+.form-group {
+    display: block;
+    padding-bottom: 0.8rem;
+}
+
+.form-control {
+    width: 96%;
+    height: 2rem;
+    border-radius: 0.25rem;
+    border: 1px solid;
+    font-size: large;
+    padding-left: 0.6rem;
+}
+
+/* input::placeholder {
+    font-size: 1rem;
+    padding-left: 0.6rem;
+} */
+
+input.checkbox {
+    width: 1.2rem;
+    height: 1.2rem;
+}
+
+input.radio {
+    width: 1rem;
+    height: 1rem;
+}
+
+/* option,
+select {
+    font-size: 1rem;
+    padding-left: 0.6rem;
+} */
+
+#comments {
+    height: 5rem;
+    font-size: 1.2rem;
+    font-family: 'Poppins', sans-serif;
+    resize: vertical;
+}
+
+.form-group-button {
+    display: flex;
+    justify-content: flex-end;
+}
+
+#submit {
+    color: black;
+    background-color: #00E016;
+    border: 1px solid #00E016;
+    width: 25%;
+}
